@@ -20,7 +20,7 @@ const Header = () => {
                         <Link to="/cart" className="link">Cart</Link>
                     </li>
                     <li className="link counter">
-                        total: 0
+                        total items: 0
                     </li>
                 </ul>
             </nav>

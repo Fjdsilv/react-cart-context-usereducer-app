@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     height: 10vh;
-    background-color: #068FFF;
+    background-color: #0F1111;
     padding: 1rem;
 }
 
@@ -17,6 +17,7 @@
 
 .logo {
     font-size: 1.8rem;
+    color: #fff;
 }
 
 .nav ul {
@@ -29,11 +30,12 @@ li {
 }
 
 .link {
-    color: #fff;
+    color: #f3a847;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 .link.counter {
-    color: #000;
+    color: #fff;
+    padding-left: 6rem;
 }
