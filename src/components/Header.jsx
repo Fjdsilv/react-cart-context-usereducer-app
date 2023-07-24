@@ -4,6 +4,7 @@ import { FaStore } from 'react-icons/fa';
 import "./Header.css"
 
 const Header = () => {
+
   return (
     <header className="header">
         <div className="wrapper">

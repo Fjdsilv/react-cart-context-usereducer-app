@@ -13,7 +13,7 @@ const Home = () => {
           <div key={id}>
             <img src={image} alt={name} />
             <p>{name}</p>
-            <h2>${price}</h2>
+            <h2>$ {price}</h2>
             <button className="add_button">Add to Cart</button>
           </div>
         )

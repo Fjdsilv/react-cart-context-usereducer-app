@@ -21,7 +21,7 @@ export const data = [
     },
     {
         id: 3,
-        name: "Gaming Chair, Gamer Chair for Adults Teens Silla Gamer",
+        name: "Gamer Chair for Adults Teens Silla Gamer",
         price: 149,
         image: img3
     },
@@ -33,7 +33,7 @@ export const data = [
     },
     {
         id: 5,
-        name: "Backpack friendly Full 2.0",
+        name: "Backpack Pro Friendly Full 2.0",
         price: 399,
         image: img5
     },
