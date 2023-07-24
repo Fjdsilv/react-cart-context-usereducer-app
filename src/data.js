@@ -34,7 +34,7 @@ export const data = [
     {
         id: 5,
         name: "Backpack friendly Full 2.0",
-        price: 99,
+        price: 399,
         image: img5
     },
     {
