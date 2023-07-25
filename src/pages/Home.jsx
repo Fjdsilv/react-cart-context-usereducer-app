@@ -1,12 +1,14 @@
-import { data } from "../data"
+import { useMyContext } from "../context/context";
 
-import "./Home.css"
+import "./Home.css";
 
 const Home = () => {
+  const { shopItems, dispatch } = useMyContext()
+
   return (
     <section>
       <div className="items_wrapper">
-      {data.map(item => {
+      {shopItems.map(item => {
         const { id, name, price, image} = item;
         
         return (
@@ -14,7 +16,11 @@ const Home = () => {
             <img src={image} alt={name} />
             <p>{name}</p>
             <h2>$ {price}</h2>
-            <button className="add_button">Add to Cart</button>
+            <button 
+              className="add_button"
+              onClick={() => dispatch({type: "ADD_CART", payload: id})}
+            >
+            Add to Cart</button>
           </div>
         )
       })}

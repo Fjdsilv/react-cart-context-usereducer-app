@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom"
 import { FaStore } from 'react-icons/fa';
+import { useMyContext } from "../context/context";
 
 import "./Header.css"
 
 const Header = () => {
+    const { state } = useMyContext();
 
   return (
     <header className="header">
@@ -21,7 +23,7 @@ const Header = () => {
                         <Link to="/cart" className="link">Cart</Link>
                     </li>
                     <li className="link counter">
-                        total items: 0
+                        total items: {state.length}
                     </li>
                 </ul>
             </nav>
