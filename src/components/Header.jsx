@@ -10,10 +10,12 @@ const Header = () => {
   return (
     <header className="header">
         <div className="wrapper">
+            <Link to="/" className="logo">
             <div className="logo">
                 <FaStore />
                 Buddy Shop
             </div>
+            </Link>
             <nav className="nav">
                 <ul>
                     <li>

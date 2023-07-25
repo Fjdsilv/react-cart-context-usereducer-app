@@ -13,7 +13,6 @@
     justify-content: space-between;
 }
 
-
 .remove_button {
     background-color: #f35247;
     border: none;
@@ -26,3 +25,8 @@
     margin: 4px 2px;
     cursor: pointer;
   }
+
+h2 {
+    text-align: center;
+    color:#f35247;
+}

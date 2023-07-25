@@ -27,6 +27,7 @@ const Cart = () => {
               </div>
             )
           })}
+          {state.length ? "" : <h2>Cart Empty</h2> }
       </div>
     </section>
   )
